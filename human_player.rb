@@ -1,7 +1,7 @@
 require './player.rb'
 require './computer_player.rb'
 class HumanPlayer < Player
-  def initialize(name)
+  def initialize(name = "Dave")
     @name = name
   end
   def name

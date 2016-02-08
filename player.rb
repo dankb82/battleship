@@ -3,7 +3,9 @@ def get_user_input
 end
 
 class Player
+  attr_reader :name
+
   def initialize(name)
-    @player_name = name
+    @name = name
   end
 end
