@@ -1,8 +1,9 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-
+require './human_player.rb'
+require './computer_player.rb'
 #Note: This line is going to fail first.
-require './battleship.rb'
+require './player.rb'
 
 $mock_inputs = []
 def get_user_input
