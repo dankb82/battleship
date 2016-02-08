@@ -2,9 +2,9 @@ require 'minitest/autorun'
 require 'minitest/pride'
 require './human_player.rb'
 require './computer_player.rb'
-#Note: This line is going to fail first.
 require './player.rb'
-
+require './ship.rb'
+#Note: This line is going to fail first.
 $mock_inputs = []
 def get_user_input
   $mock_inputs.shift
