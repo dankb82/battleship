@@ -8,5 +8,3 @@ class HumanPlayer < Player
     @name
   end
 end
-alice = HumanPlayer.new("Alice")
-bob = HumanPlayer.new("Bob")
